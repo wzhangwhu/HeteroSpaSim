@@ -1,0 +1,47 @@
+Package: HeteroSpaSim
+Type: Package
+Title: Simulation and Benchmarking of Heterogeneous Spatial Multi-Omics Data
+Version: 0.1.9.9000
+Authors@R: person("HeteroSpaSim Development Team", email = "wzhang_math@whu.edu.cn", role = c("aut", "cre", "cph"))
+Description: A controllable simulation and benchmarking framework for heterogeneous
+    spatial multi-omics data. HeteroSpaSim separates latent tissue biology from
+    modality-specific biological programs and heterogeneous spatial measurement
+    processes. It supports RNA, chromatin-accessibility and protein modalities,
+    cell- and spot-resolution measurements, paired and partially paired designs,
+    mosaic coverage, spatial misalignment, missing modalities, batch effects,
+    complete ground truth, reference calibration and reproducible benchmark suites.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: false
+Depends: R (>= 4.3.0)
+Imports:
+    Matrix,
+    stats,
+    utils,
+    methods,
+    graphics
+biocViews: Software, Spatial, SingleCell, Transcriptomics, GeneExpression, DataRepresentation
+Suggests:
+    jsonlite,
+    testthat (>= 3.0.0),
+    knitr,
+    rmarkdown,
+    ggplot2,
+    SpatialExperiment,
+    SingleCellExperiment,
+    MultiAssayExperiment,
+    SummarizedExperiment,
+    S4Vectors,
+    zellkonverter,
+    reticulate,
+    R.matlab,
+    RANN,
+    shiny,
+    BiocStyle,
+    DelayedArray,
+    HDF5Array
+Config/testthat/edition: 3
+Config/HeteroSpaSim/ReleaseScope: github-development-candidate
+Config/HeteroSpaSim/MetadataReady: true
+URL: https://github.com/wzhangwhu/HeteroSpaSim
+BugReports: https://github.com/wzhangwhu/HeteroSpaSim/issues
