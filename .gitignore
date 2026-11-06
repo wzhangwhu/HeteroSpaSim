@@ -1,0 +1,15 @@
+.Rproj.user/
+.Rhistory
+.RData
+.Ruserdata
+*.Rcheck/
+*.tar.gz
+example_outputs/
+reference.rds
+private_data/
+.Renviron
+.env
+inst/doc/*.html
+inst/doc/*.pdf
+inst/doc/*.R
+inst/doc/*.Rmd

@@ -1,0 +1,35 @@
+name: R-CMD-check
+on:
+  push:
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  R-CMD-check:
+    runs-on: ubuntu-latest
+    env:
+      _R_CHECK_FORCE_SUGGESTS_: false
+    steps:
+      - uses: actions/checkout@v4
+      - uses: r-lib/actions/setup-r@v2
+        with:
+          use-public-rspm: true
+      - uses: r-lib/actions/setup-r-dependencies@v2
+        with:
+          dependencies: '"hard"'
+          extra-packages: |
+            any::testthat
+            any::jsonlite
+            any::rcmdcheck
+      - uses: r-lib/actions/check-r-package@v2
+        with:
+          args: 'c("--no-manual", "--no-vignettes")'
+          error-on: '"warning"'
+      - name: Run public small examples
+        shell: Rscript {0}
+        run: |
+          install.packages(".", repos=NULL, type="source")
+          source("inst/examples/01_de_novo.R")
+          run_de_novo_example(tempfile("denovo_"))
+          source("inst/examples/02_reference_quickstart.R")
+          run_reference_quickstart(tempfile("reference_"))

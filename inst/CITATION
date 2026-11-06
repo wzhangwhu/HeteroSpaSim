@@ -1,0 +1,6 @@
+citHeader("Software attribution: development candidate.")
+bibentry(bibtype = "Manual",
+  title = "HeteroSpaSim: Simulation and Benchmarking of Heterogeneous Spatial Multi-Omics Data",
+  author = person("HeteroSpaSim Development Team"),
+  year = "2026",
+  note = "Version 0.1.9.9000, development candidate; distribution_v2 is explicitly selected")

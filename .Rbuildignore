@@ -1,0 +1,14 @@
+^HeteroSpaSim\.Rproj$
+^\.Rproj\.user$
+^\.github$
+^Dockerfile$
+^CITATION\.cff$
+^README\.Rmd$
+^docs$
+^_pkgdown\.yml$
+^METHODS_MAPPING\.md$
+^STATIC_VALIDATION\.md$
+
+^LICENSE\.md$
+^CONTRIBUTING\.md$
+^PUBLICATION_CHECKLIST\.md$
