@@ -3,7 +3,7 @@
 An R framework for heterogeneous spatial multi-omics simulation with explicit
 latent biology, measurement operators and multi-layer ground truth.
 
-**Version: 0.1.9.9000**
+**Version: 0.1.9**
 
 [Source code](https://github.com/wzhangwhu/HeteroSpaSim) ·
 [Download](https://github.com/wzhangwhu/HeteroSpaSim/releases/tag/v0.1.9.9000) ·

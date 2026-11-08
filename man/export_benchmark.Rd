@@ -44,4 +44,4 @@ the corresponding per-modality fields. Truth is excluded by default; annotated
 exports belong to evaluator-only directories. A D1 task is configured through
 pairing, overlap and resolution, then exported with design V2; D1 is not an export
 design argument. Native readback must be tested in the actual optional runtime.
-Version 0.1.8 is distributed locally only; publication metadata remains pending.}
+}
