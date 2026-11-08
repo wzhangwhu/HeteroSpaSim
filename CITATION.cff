@@ -1,9 +1,10 @@
 cff-version: 1.2.0
 title: "HeteroSpaSim: simulation and benchmarking of heterogeneous spatial multi-omics data"
-message: "Please cite this software. Version 0.1.9.9000 is a development candidate."
+message: "Please cite HeteroSpaSim 0.1.9."
 type: software
-version: 0.1.9.9000
+version: "0.1.9"
 authors:
   - name: "HeteroSpaSim Development Team"
 license: MIT
 repository-code: "https://github.com/wzhangwhu/HeteroSpaSim"
+url: "https://github.com/wzhangwhu/HeteroSpaSim/releases/tag/v0.1.9.9000"
